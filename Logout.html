@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Platform - Logout</title>
+    <style>
+        /* Add responsive styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center; /* Center content horizontally */
+        }
+
+        /* Style the logout button */
+        #logoutButton {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* Apply responsive styles for smaller screens */
+        @media (max-width: 600px) {
+            header {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Investment Platform</h1>
+    </header>
+    <div class="container">
+        <p>You are now logged out.</p>
+        <button id="logoutButton">Logout</button>
+    </div>
+    <script>
+        // Add an event listener to the logout button
+        document.getElementById('logoutButton').addEventListener('click', function() {
+            // Perform logout actions here, such as destroying the user's session or token
+
+            // After logging out, redirect the user to the login page or another appropriate location
+            window.location.href = 'login.html'; // Replace with your login page URL
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Our Team</h1>
+    </header>
+
+    <main>
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="team-member">
+                <img src="team-member-1.jpg" alt="Team Member 1">
+                <h3>Victor Nwobie</h3>
+                <p>CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="team-member-2.jpg" alt="Team Member 2">
+                <h3>Favour Uche</h3>
+                <p>Chief Investment Officer</p>
+            </div>
+            <div class="team-member">
+                <img src="team-member-3.jpg" alt="Team Member 3">
+                <h3>David Johnson</h3>
+                <p>Financial Analyst</p>
+            </div>
+        </section>
+    </main>
+    <style>
+        /* Add responsive styles */
+
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style the header section */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}/* ... (previous styles) ... */
+
+/* Style each individual team member */
+.team-member {
+    flex: 0 1 calc(33.33% - 20px); /* Three columns with some spacing */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px; /* Add margin to create space between team members */
+    transition: transform 0.3s; /* Add transition effect for hover */
+}
+
+.team-member:hover {
+    transform: scale(1.05); /* Increase size on hover */
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* ... (rest of your styles) ... */
+
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center align the navigation links */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content section */
+main {
+    max-width: 100%; /* Make sure content fits the screen */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the "Teams" section */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align team members */
+}
+
+/* Style each individual team member */
+.team-member {
+    flex: 0 1 calc(33.33% - 20px); /* Three columns with some spacing */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px; /* Add margin to create space between team members */
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+}
+
+    </style>
+
+    <footer>
+        <p>&copy; 2023 Investment Platform</p>
+    </footer>
+</body>
+</html>

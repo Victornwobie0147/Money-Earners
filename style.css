@@ -1,0 +1,98 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: bisque;
+  
+}
+
+h1 {
+  font-style: oblique;
+  font-family: 'snap itc';
+  font-weight: normal; /* Fix the font-weight property */
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+/* ... (rest of your CSS) */
+
+
+.column:hover {
+  transform: scale(1.05); /* Add a slight scale effect on hover */
+}
+
+/* Make the images responsive */
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* CTA button style */
+.cta-button {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 30px; /* Adjust padding for better aesthetics */
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Feature and About section styles */
+.features {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.home {
+  padding: 50px 0;
+  text-align: center;
+  /* Remove the invalid text-emphasis-color property */
+}
+
+.dashboard {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.account {
+  background-color: gray;
+  /* Remove the empty text-decoration-color property */
+}
+
+nav ul li a:hover {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+nav ul li a i {
+  margin-right: 10px;
+}

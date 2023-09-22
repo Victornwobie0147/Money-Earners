@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Earners</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Your CSS code here */
+        /* Style the navigation menu */
+        nav {
+            background-color: black;
+            overflow: hidden;
+            text-align: left;
+            margin-top: -7px;
+            margin-right: -7px;
+            margin-left: -7px;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 10px;
+            list-style: none;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 10px;
+        }
+
+        nav a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        nav a:hover {
+            background-color: black;
+        }
+
+        @media (max-width: 400px) {
+            nav ul {
+                flex-direction: column;
+            }
+        }
+
+        .logo{
+            height: 50px;
+            width: 50px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <img class="logo" src="https://static.vecteezy.com/system/resources/thumbnails/000/609/739/small/3-19.jpg" alt="" srcset="">
+    <h1>WELCOME TO MONEY EARNERS</h1>
+
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+    <div class="myclass">
+        <div class="mySlides fade">
+            <img src="D:\Investment site\investment mysite\Images in mysite\download (6).jpg" style="width:50%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="D:\Investment site\investment mysite\Images in mysite\download (7).jpg" style="width:50%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="D:\Investment site\investment mysite\Images in mysite\download (12).jpg" style="width:55%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="D:\Investment site\investment mysite\Images in mysite\download (8).jpg" style="width:50%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="D:\Investment site\investment mysite\images (2).jpg" style="width:50%;">
+        </div>
+        <!-- Add more slides as needed -->
+    </div>
+</div>
+<style>
+    /* Add hover effect and style for images */
+.mySlides img {
+    width: 100%;
+    border: 2px solid bisque; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    transition: transform 0.3s; /* Add a transition for hover effect */
+}
+
+.mySlides img:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+</style>
+
+
+
+
+
+</div>
+</div>
+
+    <nav>
+        <ul>
+            <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="investment calculator.html"><i class="fas fa-dollar-sign"></i> Investment Calculator</a></li>
+         
+            <li><a href="Benefits.html"><i class="fas fa-gift"></i> Benefits</a></li>
+            <li><a href="Teams.html"><i class="fas fa-users"></i> Teams</a></li>
+               <li><a href="Contact Us.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+            </li><li><a href="My Account.html"><i class="fas fa-user"></i> My Account</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>&copy; 2023 Investment Platform</p>
+    </footer>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 8 seconds (2000 milliseconds)
+        }
+    </script>
+</body>
+</html>
